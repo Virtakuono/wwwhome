@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rss version="2.0">
+<channel>
+<title>Perkeleen RSS-feedi</title>
+<link>http://users.tkk.fi/jhappola/blag.html</link>
+<description>Juho's blag</description>
+<!-- <lastBuildDate>Sun, 6 Jun 2010 02:24:48 GMT</lastBuildDate> -->
+<language>en-us</language>
+<item>
+<title>Torontosettii</title>
+<link>http://users.tkk.fi/~jhappola/blag.html#n2</link>
+<guid>http://users.tkk.fi/~jhappola/blag.html#n2</guid>
+<pubDate>Sun, 6 Jun 2010 02:24:48 GMT</pubDate>
+<description>Torontosettii</description>
+</item>
+<item>
+<title></title>
+<link>http://users.tkk.fi/~jhappola/blag.html#n3</link>
+<guid>http://users.tkk.fi/~jhappola/blag.html#n3</guid>
+<pubDate>Sun, 6 Jun 2010 21:36:43 GMT</pubDate>
+<description>Amerikan kulttuuria</description>
+</item>
+<!--
+<item>
+<title></title>
+<link>http://users.tkk.fi/~jhappola/blag.html#</link>
+<guid>http://users.tkk.fi/~jhappola/blag.html#</guid>
+<pubDate></pubDate>
+<description></description>
+</item>
+-->
+</channel>
+</rss>

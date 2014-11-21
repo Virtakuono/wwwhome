@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=ISO-8859-1" />
+
+	<title>
+
+		Juho Häppölä - Curriculum vitae
+
+	</title>
+
+	<link rel="stylesheet" type="text/css" href="./cvtyyli.css" />
+
+</head>
+
+<body>
+	<div class="text">
+	<p class="header">
+		Curriculum vitae
+	</p>
+	<p class="plaintext">
+		(Last updated 4.9.2009)
+	</p>
+
+	<p class="header">
+		Contact information
+	</p>
+
+
+	<p class="plaintext">
+		Surname: Häppölä<br />
+		Given names: Juho Matti Johannes <br />
+		Address: Otaranta 8 D 92/3, 02150 Espoo <br />
+		Phone: +358 50 4906696 <br />
+		E-mail: &#106;uho.happola&#64;&#105;ki.fi <br />
+		Born: 8.3.1987, Riihimäki, Finland <br />
+	</p>
+	<p class="header">
+		Education
+	</p>
+
+
+	<p class="plaintext">
+		2008- Student at University of Helsinki, Theoretical Physics <br />
+		2005- Student at Helsinki University of Technology, Engineering physics and mathematics <br />
+		2005 Matriculation examination, Hyvinkään Sveitsin lukio <br />
+	</p>
+	<p class="header">
+		Working experience
+	</p>
+
+
+	<p class="plaintext">
+		9/2008- Teaching assistant on continuation course on quantum mechanics, Helsinki University of Technology, Department of Applied Physics <br />
+		5/2008-9/2008 Research assistant, Helsinki University of Technology, Department of Applied Physics, Quantum Dynamics group <br />
+		9/2008-5/2008 Teaching assistant in mathematics and physics, Helsinki University of Technology, Department of Mathematics and Systems analysis <br />
+		5/2008-9/2008 Research assistant, Helsinki University of Technology, Low Temperature Laboratory, Nano Theory group <br />
+		1/2008-5/2008 Teaching assistant in C-programming, Helsinki University of Technology, laboratory of Information and Computer systems in Automation <br />
+		9/2007-12/2007 Teaching assistant in mathematics, Helsinki University of Technology, Institute of Mathematics <br />
+		1/2007-9/2007 Secretary General of Conscript committee, Defense command Finland (1/2007-7/2007 as a conscript, 7/2007-9/2007 as a civil servant) <br />
+	</p>
+	<p class="header">
+		Language skills
+	</p>
+
+
+	<p class="plaintext">
+		Finnish: mother tongue <br />
+		English: fluent <br />
+		German: good <br />
+		Swedish: good <br />
+		Russian: basics <br />
+	</p>
+	<p class="header">
+		Other education
+	</p>
+
+
+	<p class="plaintext">
+		Class B Finnish driver's license (car, light van) <br />
+		Military rank: second lieutenant in reserve <br />
+	</p>
+
+	<p class="header">
+		Computer skills
+	</p>
+
+
+	<p class="plaintext">
+		Fluent use of MS Office and Openoffice suites <br />
+		Programming and markup languages: C, Java, python, (x)html, css, latex <br />
+		Use and administration of MS Windows XP and GNU/Linux systems <br />
+		Administration of GNU/Linux -based servers (Apache, samba, ssh etc.) <br />
+	</p>
+        <p class="header">
+                Hobbies and personal interests
+        </p>
+
+
+        <p class="plaintext">
+                Diving <br />
+                Running <br />
+                Hiking <br />
+                Hunting <br />
+                Computers <br />
+        </p>
+
+        <p class="plaintext">
+                <a href="./index.htm">back to main page</a>
+        </p>
+
+	</div>
+	<div class="footer">
+
+		<a href="http://validator.w3.org/check?uri=referer">
+			<img class="validatorPenisExtender" src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML 1.1" height="31" width="88" />
+                        <img class="validatorPenisExtender" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS" height="31" width="88" />
+		</a>
+	</div>
+</body>
+
+</html>

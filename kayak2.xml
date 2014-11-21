@@ -1,0 +1,95 @@
+<!--<?xml version="1.0" encoding="ISO-8859-1"?>-->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">-->
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=ISO-8859-1" />
+
+	<title>
+
+		Some kayaking stuff
+
+	</title>
+
+	<link rel="stylesheet" type="text/css" href="./stylesheet.css" />
+
+</head>
+
+<body>
+	<div class="text">
+	<p class="header">
+		Some kayaking pics
+	</p>
+	<p class="plaintext">
+		On June 22nd 2009 I looked out of the window and so did a pal of mine. The weather seemed so nice that there was only one conclusion to be drawn: let's go kayaking. I was lucky to notice that the ugly-as-hell capital of ours does not seem that disgusting if you focus on the right things instead of the concrete bunker architecture. The following photos are taken from a trip to Suomenlinna. The path taken can be seen below.
+	</p>
+	<p class="plaintext">
+
+	<iframe width="580" height="380" src="http://maps.google.com/?q=http:%2F%2Fusers.tkk.fi%2Fjhappola%2Fkml%2F220609.kml&amp;ie=UTF8&amp;t=h&amp;ll=60.166062,24.914411&amp;spn=0.040119,0.152432&amp;output=embed"></iframe><br />
+	
+	</p>
+	<p class="header2">
+		Enough with the BS. Here are the photos.
+	</p>
+	<p class="plaintext">
+		<img alt="Insert alt text of your choice" class="kayakphoto" src="http://virtakuono.iki.fi/jhappola/220609/dsc00140.jpg" /> <br />
+		<img alt="Insert alt text of your choice" class="kayakphoto" src="http://virtakuono.iki.fi/jhappola/220609/dsc00141.jpg" /> <br />
+		<img alt="Insert alt text of your choice" class="kayakphoto" src="http://virtakuono.iki.fi/jhappola/220609/dsc00142.jpg" /> <br />
+		<img alt="Insert alt text of your choice" class="kayakphoto" src="http://virtakuono.iki.fi/jhappola/220609/dsc00144.jpg" /> <br />
+		<img alt="Insert alt text of your choice" class="kayakphoto" src="http://virtakuono.iki.fi/jhappola/220609/dsc00145.jpg" /> <br />
+		<img alt="Insert alt text of your choice" class="kayakphoto" src="http://virtakuono.iki.fi/jhappola/220609/dsc00146.jpg" /> <br />
+		<img alt="Insert alt text of your choice" class="kayakphoto" src="http://virtakuono.iki.fi/jhappola/220609/dsc00148.jpg" /> <br />
+		<img alt="Insert alt text of your choice" class="kayakphoto"  src="http://virtakuono.iki.fi/jhappola/220609/dsc00149.jpg" /> <br />
+		<img alt="Insert alt text of your choice" class="kayakphoto" src="http://virtakuono.iki.fi/jhappola/220609/dsc00150.jpg" /> <br />
+		<img alt="Insert alt text of your choice" class="kayakphoto" src="http://virtakuono.iki.fi/jhappola/220609/dsc00151.jpg" /> <br />
+		<img alt="Insert alt text of your choice" class="kayakphoto" src="http://virtakuono.iki.fi/jhappola/220609/dsc00152.jpg" /> <br />
+		<img alt="Insert alt text of your choice" class="kayakphoto" src="http://virtakuono.iki.fi/jhappola/220609/dsc00153.jpg" /> <br />
+		<img alt="Insert alt text of your choice" class="kayakphoto" src="http://virtakuono.iki.fi/jhappola/220609/dsc00154.jpg" /> <br />
+		<img alt="Insert alt text of your choice" class="kayakphoto" src="http://virtakuono.iki.fi/jhappola/220609/dsc00159.jpg" /> <br />
+		<img alt="Insert alt text of your choice" class="kayakphoto" src="http://virtakuono.iki.fi/jhappola/220609/dsc00165.jpg" /> <br />
+		<img alt="Insert alt text of your choice" class="kayakphoto" src="http://virtakuono.iki.fi/jhappola/220609/dsc00166.jpg" /> <br />
+		<img alt="Insert alt text of your choice" class="kayakphoto" src="http://virtakuono.iki.fi/jhappola/220609/dsc00167.jpg" /> <br />
+		<img alt="Insert alt text of your choice" class="kayakphoto"
+		     title="You'd think this was from Amsterdam or something unless you knew better..." src="http://virtakuono.iki.fi/jhappola/220609/dsc00169.jpg" /> <br />
+		<img alt="Insert alt text of your choice" class="kayakphoto" src="http://virtakuono.iki.fi/jhappola/220609/dsc00173.jpg" /> <br />
+		<img alt="Insert alt text of your choice" class="kayakphoto" src="http://virtakuono.iki.fi/jhappola/220609/dsc00177.jpg" /> <br />
+		<img alt="Insert alt text of your choice" class="kayakphoto" src="http://virtakuono.iki.fi/jhappola/220609/dsc00179.jpg" /> <br />
+		<img alt="Insert alt text of your choice" class="kayakphoto" src="http://virtakuono.iki.fi/jhappola/220609/dsc00185.jpg" /> <br />
+		<img alt="Insert alt text of your choice" class="kayakphoto" src="http://virtakuono.iki.fi/jhappola/220609/dsc00189.jpg" /> <br />
+
+	</p>
+
+	<p class="plaintext">
+		Images are placed on a separate server for practical reasons.
+		If you do not see them, I've probably started fixing something that wasn't
+		broken in the first place. In that case, please be patient and try again
+		at a later time.
+		The images you currently see are scaled down a bit.
+		You might want to perform some magic on your browser to see them in their original size.
+	</p>
+	
+	<p class="plaintext">
+		This page was last updated on 23.6.2009
+	</p>
+	<p class="plaintext">
+		<a href="./index.htm">back to main page</a>
+	</p>
+</div>
+<div class="footer">
+		<a href="http://validator.w3.org/check?uri=referer">
+			<img class="validatorPenisExtender" src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML 1.1" height="31" width="88" />
+		</a>
+		<a href="http://jigsaw.w3.org/css-validator/check/referer">
+			<img class="validatorPenisExtender"
+				src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+		</a>
+		<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" class="validatorPenisExtender" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a>
+		
+</div>
+</body>
+
+</html>

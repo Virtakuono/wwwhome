@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=ISO-8859-1" />
+
+	<title>
+
+		Juho Häppölä
+
+	</title>
+
+	<link rel="stylesheet" type="text/css" href="./stylesheet.css" />
+
+</head>
+
+<body>
+	<div class="text">
+	<p class="header">
+		Juho's page
+	</p>
+	<p class="plaintext">
+		<img src="./pages/omakuvah.jpg" alt="Myself skiing in Lapland." />
+		This page is here mostly for myself to provide links but since
+		every now and then some snooper finds his way here, I feel obliged
+		to provide some quasi-useful information of myself. Be greeted, stranger.
+	</p>
+	<p class="header2">
+		Who am I?
+	</p>
+	<p class="plaintext">
+		<b>What do I do?</b><br />
+		Nerdy stuff: Math, physics and the related. Also trying to avoid growing up.
+		Some things I have done are listed in my
+		<a href="./juhoncv.en.pdf">CV</a>. Some more recent and
+		less significant achievements and thoughts can be
+		read <a href="./blag.html">here*</a><br />
+		<b>Where am I?</b><br />
+		Back in Finland. If you wish to contact me, you can do so
+		by email: &#106;uho.happola&#64;&#105;ki.fi
+		<br />
+		<b>What interests me?</b><br />
+		Great mysteries of nature: Is the Schrödinger's cat dead or alive?
+		Where do all
+		the pairless socks lose their pairs?
+		Can a woman be modelled with a finite amount of logical ports?
+		How come I have to study physics for years to know what
+		do when they run into other electrons but the electron does
+		not need to open a single textbook?
+		
+	</p>
+
+	<p class="header2">
+		School stuff
+	</p>
+	<p class="plaintext">
+		<!-- Removed on request 18.9.2009
+		Tfy-0.3201 Laboratory Course - Work 1 <a href="http://virtakuono.iki.fi/jhappola/fileshare/happisaturaatio/selkkari.pdf">report*</a> and <a href="http://virtakuono.iki.fi/jhappola/fileshare/happisaturaatio/">other material*</a>
+		<br />
+		Tfy-0.3201 Laboratory Course - Work 2B <a href="http://virtakuono.iki.fi/jhappola/fileshare/ERG/selkkari.pdf">report*</a> and <a href="http://virtakuono.iki.fi/jhappola/fileshare/ERG/">other material*</a>
+		<br />
+		Tfy-0.3201 Laboratory Course - Work 3 <a href="http://virtakuono.iki.fi/jhappola/fileshare/hiekkakasa/selkkari.pdf">report*</a> and <a href="http://virtakuono.iki.fi/jhappola/fileshare/hiekkakasa/">other material*</a>
+		<br /> -->
+		<!-- Removed on request Tfy-0.3141 Electricity and Magnetism, some <a href="http://virtakuono.iki.fi/jhappola/fileshare/h1.pdf">solutions*</a> for the fall 2008 exercises
+		<br /> -->
+		Some <a href="./luento.pdf">lecture material*</a> for Tfy-0.3211 Continuation course on Quantum Mechanics<br />
+		<a href="http://virtakuono.iki.fi/jhappola/fileshare/examarchiver">A little helper script</a> for uploading exams to <a href="http://tenttiarkisto.fi">tenttiarkisto.fi*</a> <br />
+		Other material relating to courses Tfy-0.3201 and Tfy-0.3141 I have removed on kind request from course staff since they feel it is too much of use for people willing to plagiarise. Contact me if you want access to it. 
+	</p>
+
+
+	<p class="header2">
+		Some things I've done
+	</p>
+	<p class="plaintext">
+	  Howto and supporting material for designing and <a href="bowtie.xml">sewing your own bow tie</a>.
+		Some <a href="./kayak.htm">kayaking stuff</a>,<br />
+		some <a href="./kml.htm">more</a>, and <a href="./panel.htm">some gps-tinkering</a> with the kayak.<br />
+		Physicists' Guild newspaper Kvantti <br />
+		<a href="http://kvantti.tky.fi/arkisto/07kvantti1.pdf">
+			1/2007*,
+		</a> 
+		<a href="http://kvantti.tky.fi/arkisto/08kvantti1.pdf">
+			1/2008*,
+		</a> 
+		<a href="http://kvantti.tky.fi/arkisto/08kvantti2.pdf">
+			2/2008*,
+		</a> 
+		<a href="http://kvantti.tky.fi/arkisto/08kvantti3.pdf">
+			3/2008*,
+		</a> 
+		<a href="http://kvantti.tky.fi/arkisto/08kvantti4.pdf">
+			4/2008* 
+		</a>
+		<br />
+		<a href="http://etelalopenerankavijat.fi/">
+			Etelä-Lopen Eränkävijät ry*
+		</a> - a hunting club<br />
+	</p>
+	
+
+	
+	<p class="header2">
+		Courses and miscellaneous school stuff
+	</p>
+	<p class="plaintext">
+		<a href="http://tfy.tkk.fi/~talahde/lectures/Overview.html">
+			QFT in cond.mat. physics @ AU
+		</a><br />
+	</p>
+	
+
+
+	<p class="header2">
+		Links to something useful...
+	</p>
+		<p class="plaintext">
+			Route information in Helsinki area by <a href="http://aikataulut.ytv.fi/reittiopas/fi/">
+				bus
+			</a> and by  
+			<a href="http://kevytliikenne.ytv.fi/">
+				bicycle
+			</a><br />
+			<a href="http://laundry.kyla.fi/403311569">
+				Laundry room reservations.
+			</a><br />
+			<a href="http://wolframalpha.com">
+				Wolfram alpha
+			</a><br />
+			<a href="http://lounasaika.net">Menus of the campus cafeterias.</a><br />
+			<a href="http://testbed.fmi.fi">
+				FMI - Helsinki testbed
+			</a><br />
+			<a href="http://en.wikipedia.org/wiki/Lists_of_integrals">
+				Lists of integrals - Wikipedia
+			</a><br />
+			<a href="http://en.wikipedia.org/wiki/List_of_trigonometric_identities">
+				List of trigononometric identities - Wikipedia
+			</a><br />
+			<a href="http://en.wikipedia.org/wiki/Pauli_matrices">
+				Pauli Matrices - Wikipedia,
+			</a> if you have a rule of thumb for remembering which is x
+			and which is y please let me know.<br />
+			<a href="http://www.bbc.co.uk/podcasts/worldservice">
+				Podcasts
+			</a>by BBC World Service<br />
+			<a href="http://bugs.freedesktop.org/show_bug.cgi?id=29647">
+				A bug</a>, 2DO: install GNU/Linux as soon as some nerd fixes this first.
+			
+		</p>
+
+	<p class="header2">
+		...and something amusing
+	</p>
+	<p class="plaintext">
+			<a href="http://xkcd.com/">
+				XKCD
+			</a> <br />
+			<a href="http://www.phdcomics.com/comics.php">
+				PhD Comics
+			</a> <br />
+			<a href="http://www.redmeat.com/redmeat/current/index.html">
+				Red Meat
+			</a> <br />
+	</p>
+
+
+	<p class="plaintext">
+		<br />
+		Links marked with "*" lead to non-English content.
+		<br />
+		This page was last updated on 2.7.2011
+	</p>
+</div>
+<div class="footer">
+		<a href="http://validator.w3.org/check?uri=referer">
+			<img class="validatorPenisExtender" src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML 1.1" height="31" width="88" />
+		</a>
+		<a href="http://jigsaw.w3.org/css-validator/check/referer">
+			<img class="validatorPenisExtender"
+				src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+		</a>
+		<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" class="validatorPenisExtender" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a>
+		<a href="http://www.getip.com"><img alt="Your IP address" class="validatorPenisExtender" src="http://www.getip.com/images/getip.gif" /></a>
+		<img class="validatorPenisExtender" src="http://virtakuono.iki.fi/jhappola/white.png" alt="This is just for gathering statistics." />
+		
+</div>
+</body>
+
+</html>

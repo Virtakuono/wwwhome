@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=ISO-8859-1" />
+	<meta name="keywords" content="bow tie, open source, sewing, pattern, instruction, howto"/>
+
+	<title>
+
+		Flying
+
+	</title>
+
+	<link rel="stylesheet" type="text/css" href="./stylesheet.css" />
+
+</head>
+
+<body>
+	<div class="text">
+	<p class="header">
+		I've been thinking about flying
+	</p>
+
+	<p class="plaintext">
+		I was quite recently on a trip to Rome.
+		On the trip, I noticed that there is a load of stuff that
+		I simply do not understand about flying, airports, people taking a flight
+		and so on. So I decided to list all the things that I wonder about, if you
+		have answers, let me know.
+	</p>
+	<p class="plaintext">
+		1. Getting the ticket. Sometimes, it seems that one way tickets cost more than a return fare. I just don't get it.
+		This is pretty much public information so I guess there are a plenty of people buying return tickets instead of one way
+		and simply leaving the other leg of their ticket unused. I guess there must be someone who falls for this and pays
+		extra for not having a return ticket to leave unused. If you happen to be one of those people, or know one, please let me know.
+	</p>
+	<p class="plaintext">
+		2. Getting to the airport. I took a cab to the airport. There seems to be a dilemma with the airport cab pricing. If I buy my airline
+		ticket a bit early and fix my travel date etc. beforehand, I get a discount. On the taxi though, I have to pay a few euros extra
+		if I want to make a reservation beforehand.
+	</p>
+	<p class="plaintext">
+		3. The security check and/or terrorists. Does this really make us a bit safer? There are a lot of things that make me feel that the
+		security people are giving us some kind of cargo cult security, carrying out established rituals that leave a few obvious gaps for
+		those who really who want to do something nasty. I'll not go into details as to how to do so, but I think that if someone feels
+		terroristy, they can carry out their bad deeds without my advice. The most obvious example of this quasisecurity was on Gatwick
+		airport some months ago, where some nasty looking fellas armed with assault rifles were looking into the croud and giving the
+		impression that they could actually do something if there was a terrorist in the croud. By the way, they were guarding people
+		who were coming out of the planes, giving us all a hint of how much the UK officials trust the checks carried out at the other airport.
+	</p>
+	<p class="plaintext">
+		4. Getting on the plane. It seems there are a lot of people who are in a hurry to get on a plane. If you are one of the people
+		(or happen to know one) that believes that you'll get airborne any sooner if you are among the first ones to board the plane.
+	</p>
+	<p class="plaintext">
+		5. On the plane: seating. People take great care to secure their children when driving in a car. Most of the children's seats are
+		are designed so that the child is not facing the direction the vehicle is headed to. I am under the impression that this is to
+		give extra security in case of head-on collision. Most airplane crashes are probably happen head-first but the same logic does not
+		apply for aircraft. Go figure.
+	</p>
+	<p class="plaintext">
+		6. On the plane: electronic devices.
+		During takeoff and landing, you are not allowed to read your kindle for some reason. It would make sense in a way to forbid all unbound heavy
+		items during the riskier takeoffs and landings but no. You are allowed to read a Dostoyevsky as long as it's on paper. I assume you can
+		hold a brick in your hands as well.
+	</p>
+	<p class="plaintext">
+		7. Getting out of the plane.
+		Whereas it makes little sense to be among the first ones to get onboard, it makes some to get out fast. But, according to my observations the
+		people who are the most eager to get out of the plane are the ones who have checked in luggage so that they will have to spend time waiting at
+		the conveyor belt anyways.
+	</p>
+		
+		<p class="plaintext">
+			Update: Quite a lot of people I have discussed with have proposed that if the plane crashes, it makes little difference how you are seated.
+			While this is true, I wonder why they have instructions on how to brace yourself before impact. Some people have also suggested that
+			being seated facing the back of the plane would cause nausea, which I disagree with since most of the flight is
+			horizontal anyways with no acceleration to any direction whatsoever. Of course there is takeoff acceleration and the braking
+			at landing, but one of these accelerations you will have acceleration that twists you off your seat in any case.
+		</p>
+
+		<p class="plaintext">
+			This page was last updated on 30.7.2012
+		</p>
+		<p class="plaintext">
+			<a href="./index.htm">back to main page</a>
+		</p>
+
+
+</div>
+<div class="footer">
+		<a href="http://validator.w3.org/check?uri=referer">
+			<img class="validatorPenisExtender" src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML 1.1" height="31" width="88" />
+		</a>
+		<a href="http://jigsaw.w3.org/css-validator/check/referer">
+			<img class="validatorPenisExtender"
+				src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+		</a>
+		<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" class="validatorPenisExtender" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a>
+		
+</div>
+</body>
+
+</html>

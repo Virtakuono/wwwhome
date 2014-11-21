@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=ISO-8859-1" />
+
+	<title>
+
+		KML routes
+
+	</title>
+
+	<link rel="stylesheet" type="text/css" href="./stylesheet.css" />
+
+</head>
+
+<body>
+	<div class="text">
+	<p class="header">
+		KML routes of some kayaking daytrips I've taken
+	</p>
+	<p class="plaintext">
+		<a href="./kml/210609.kml">Janakkala 21.6.2009</a>, <a href="http://maps.google.fi/?q=http://users.tkk.fi/jhappola/kml/210609.kml">google maps</a> <br />
+		<a href="./kml/220609.kml">Suomenlinna 22.6.2009</a>, <a href="http://maps.google.fi/?q=http://users.tkk.fi/jhappola/kml/220609.kml">google maps</a> <br />
+		<a href="./kml/270609_1.kml">Suomenlinna 27.6.2009, part 1</a>, <a href="http://maps.google.fi/?q=http://users.tkk.fi/jhappola/kml/270609_1.kml">google maps</a> <br />
+		<a href="./kml/270609_1.kml">Suomenlinna 27.6.2009, part 2</a>, <a href="http://maps.google.fi/?q=http://users.tkk.fi/jhappola/kml/270609_2.kml">google maps</a> <br />
+		<a href="./kml/10072009.kml">Harmaja 10.7.2009</a>, <a href="http://maps.google.fi/?q=http://users.tkk.fi/jhappola/kml/10072009.kml">google maps</a> <br />
+		<a href="./kml/12072009.kml">Otaniemi to Saunalahti 12.7.2009</a>, <a href="http://maps.google.fi/?q=http://users.tkk.fi/jhappola/kml/12072009.kml">google maps</a> <br />
+		<a href="./kml/13072009.kml">Saunalahti to Otaniemi 13.7.2009</a>, <a href="http://maps.google.fi/?q=http://users.tkk.fi/jhappola/kml/13072009.kml">google maps</a> <br />
+		<a href="./kml/17072009.kml">Short morning trip from Otaniemi 17.7.2009</a>, <a href="http://maps.google.fi/?q=http://users.tkk.fi/jhappola/kml/17072009.kml">google maps</a> <br />
+		<a href="./kml/18072009.kml">Otaniemi to Soukka 18.7.2009</a>, <a href="http://maps.google.fi/?q=http://users.tkk.fi/jhappola/kml/18072009.kml">google maps</a> <br />
+		Soukka to Otaniemi 19.7.2009 <a href="./kml/19072009.kml">before</a> the gps ran out of batteries and <a href="./kml/19072007_2.kml">after</a>, google maps <a href="http://maps.google.fi/?q=http://users.tkk.fi/jhappola/kml/19072009.kml">before</a> and <a href="http://maps.google.fi/?q=http://users.tkk.fi/jhappola/kml/19072009_2.kml">after</a>. If anyone happens to have extra solar panels, feel free to hand then out to me...<br />
+	</p>
+	<p class="plaintext">
+		If you happened to sit on the other seat in the same kayak or are just otherwise intrested, some of the stuff above can be found in yet another format with some statistics at my profile in		
+		<a href="http://sportstracker.nokia.com/nts/user/profile.do?u=juho.happola">Nokia Sports Tracker</a>.
+	</p>
+	
+	<p class="plaintext">
+		This page was last updated on 19.7.2009
+	</p>
+	<p class="plaintext">
+		<a href="./index.htm">back to main page</a>
+	</p>
+</div>
+<div class="footer">
+		<a href="http://validator.w3.org/check?uri=referer">
+			<img class="validatorPenisExtender" src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML 1.1" height="31" width="88" />
+		</a>
+		<a href="http://jigsaw.w3.org/css-validator/check/referer">
+			<img class="validatorPenisExtender"
+				src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+		</a>
+		<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" class="validatorPenisExtender" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a>
+		
+</div>
+</body>
+
+</html>

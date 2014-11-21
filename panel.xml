@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=ISO-8859-1" />
+
+	<title>
+
+		A brief story about fixing a solar panel to a kayak.
+
+	</title>
+
+	<link rel="stylesheet" type="text/css" href="./stylesheet.css" />
+
+</head>
+
+<body>
+	<div class="text">
+	<p class="header">
+		Fixing a solar panel for gps
+	</p>
+	<p class="header2">
+		How it all got started?
+	</p>
+	<p class="plaintext">
+		Being some kind of a technofreak like me, it is nice to collect all kinds of statistics about your workouts. Recently when I bought a new cell phone I found Nokia Sports tracker, which I find quite useful for this purpose. Lately, I've had it with me when I go kayaking, biking or whatever. Afterwards it is always nice to see how badly you have gotten lost, how much has the wind affected your speed and all sorts of things. However, using Sports Tracker on my E71 seems to consume so much power that the battery has a tendency to run out on longer trips. So I figured, why not install some kind of a solar panel to solve the problem.
+	</p>
+	<p class="header2">
+		Parts
+	</p>
+	<p class="plaintext">
+		I looked at some different options. There are some ready made equipment by Silva, among other brands, but they seemed a bit too expensive for me. I also thought about doing wiring from outside the kayak into the containers, but making these wirings watertight seemed a bit laborous. Finally I decided that I'll get myself a small solar panel (or two, if necessary), put it in a watertight and transparent map pouch and insert my cell phone in the same pouch. This way I would not have to think about making anything watertight and strapping the whole thing onto the kayak wouldn't be a bit more difficult than taking a map with me. Ultimately, I ended up with the following parts: <br />
+		
+		Sunsei solar panel from <a href="http://www.amazon.co.uk/">amazon.co.uk</a>, some 40 EUR<br />
+			Ortlieb map pouch, had it already, some 30 EUR<br />
+			Car charger for E71 from <a href="http://www.verkkokauppa.com/popups/prodinfo.php?id=4800">verkkokauppa.com</a>, 5 EUR<br />
+			Adapter to make the charger fit on the panel from <a href="http://www.bebek.fi/kauppa/index2.php">bebek electronic</a>, 4 EUR<br />
+
+		<img alt="All the parts" class="kayakphoto" src="./pics/panel.jpg" title="All the parts"/><br />
+		I had no idea whatsoever, how much power would I need. Instead of testing, I just ended up buying a cheap solar panel and figured out that if it wasn't sufficient I could always attach extra batteries and/or panels afterwards with ease. Anyways, estimating the power consumption was not so easy because there are so many variables to take into account: absorption of light into the map pouch, clouds, battery, the fact that the sunlight will undoubtedly come in some unspecified angle etc. The producer of the solar panel seems to promise 2,6 watts of output power, but what that means in practise is more or less a matter of experiment.
+	</p>
+	<p class="header2">
+		Results
+	</p>
+	<p class="plaintext">
+		Initially I tested the setup just in the park by having the panel in the sunlight. It seems that the cell phone is not loading when there is a cloud blocking the sunlight. Whenever the sun is shining onto the panel, I hear a promising beep indicating that my phone is now charging. I don't know, though, does the phone actually load even without the beep, or is there some kind of a threshold voltage or something that is required for loading.
+	</p>
+	<p class="plaintext">
+		I hope to have some experience from the water pretty soon, I hope I have the time and energy to update some info on how the construction works as soon as I know more.
+	</p>
+	
+	
+	<p class="plaintext">
+		This page was last updated on 7.8.2009
+	</p>
+	<p class="plaintext">
+		<a href="./index.htm">back to main page</a>
+	</p>
+</div>
+<div class="footer">
+		<a href="http://validator.w3.org/check?uri=referer">
+			<img class="validatorPenisExtender" src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML 1.1" height="31" width="88" />
+		</a>
+		<a href="http://jigsaw.w3.org/css-validator/check/referer">
+			<img class="validatorPenisExtender"
+				src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+		</a>
+		<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" class="validatorPenisExtender" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a>
+		
+</div>
+</body>
+
+</html>

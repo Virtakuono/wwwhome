@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=ISO-8859-1" />
+
+	<title>
+
+		Kubuntu 9.10 to Asus EeePC 901.
+
+	</title>
+
+	<link rel="stylesheet" type="text/css" href="./stylesheet.css" />
+
+</head>
+
+<body>
+	<div class="text">
+	<p class="header">
+		So here's what I did and what should work for you also.
+	</p>
+	<p class="plaintext">
+		Downloaded the <a href="http://torrent.ubuntu.com/kubuntu/simple/karmic/netbook/kubuntu-9.10-netbook-i386.iso.torrent">image</a> with bittorrent. And loaded it into a usb stick using <a href="http://unetbootin.sourceforge.net/">unetbootin</a>.
+	</p>
+	<p class="plaintext">
+		Stuck it in and booted, all worked nicely. Used the graphical gizmo to setup my system, pretty much using the default options.
+	</p>
+	<p class="plaintext">
+		So what I got was a semi-working piece of crap. At least for me the easy-to-use netbook addons were not at all easy to use. Luckily one can get rid of them by:
+	</p>
+	<p class="plaintext">
+		sudo apt-get remove kubuntu-netbook kubuntunetbook-default-settings plasma-netbook
+	</p>
+	<p class="plaintext">
+		After that I had everything but the nice little eee-control thingie that lets you cut off the memory card reader and some other appliances. Unfortunately it isn't compatible with the ubuntu. Luckily a pal of mine took the time and effort to modify it so that it works. I used the <a href="http://users.tkk.fi/jekoljon/eee901/eee-control-0.9.4.tar.gz">tarball of his</a>. Extracted with some graphical gizmo (you may use tar -xvvf instead). In order to get this working you need a bunch of packages:
+	</p>
+	<p class="plaintext">
+		sudo apt-get install python-dev python-dbg python-dbus python-gconf python-smbus
+	</p>
+	<p class="plaintext">
+		From there on I could pretty much follow the instructions from <a href="http://greg.geekmind.org/eee-control/#install">here</a>. That is, command the following	
+	</p>
+	<p class="code">
+		cd thefolderyouunpackedto/locale/ && sudo sh update.sh && cd ..<br />
+		sudo python setup.py install --prefix=/usr<br />
+		sudo cp data/eee-control /etc/init.d/<br />
+		sudo eee-control-setup.sh<br />
+		sudo update-rc.d eee-control defaults <br />
+	</p>
+	<p class="plaintext">
+		Now one can enjoy the eee-control, starting it by commanding
+	</p>
+	<p class="code">
+		sudo /etc/init.d/eee-control start
+	</p>
+	<p class="plaintext">
+		Whereas the graphical little control panel can be brought to life by
+	</p>
+	<p class="code">
+		eee-control-tray
+	</p>
+	<p class="plaintext">
+		This page was last updated on 30.10.2009
+	</p>
+	<p class="plaintext">
+		<a href="./index.htm">back to main page</a>
+	</p>
+</div>
+<div class="footer">
+		<a href="http://validator.w3.org/check?uri=referer">
+			<img class="validatorPenisExtender" src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML 1.1" height="31" width="88" />
+		</a>
+		<a href="http://jigsaw.w3.org/css-validator/check/referer">
+			<img class="validatorPenisExtender"
+				src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+		</a>
+		<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" class="validatorPenisExtender" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a>
+		
+</div>
+</body>
+
+</html>

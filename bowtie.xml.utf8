@@ -1,0 +1,135 @@
+<!--<?xml version="1.0" encoding="ISO-8859-1"?>-->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">-->
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=ISO-8859-1" />
+
+	<title>
+
+		Open Source Bow Tie
+
+	</title>
+
+	<link rel="stylesheet" type="text/css" href="./stylesheet.css" />
+
+</head>
+
+<body>
+	<div class="text">
+	<p class="header">
+		How to make a bow tie
+	</p>
+	<p class="header2">
+		Creating a pattern
+	</p>
+	<p class="plaintext">
+		When I felt the urge to make a bow tie, I could not decide which kind of a pattern to use for the work.
+		However, the shape of a bow tie is simple enough to work out in MATLAB and it turns out that with a couple free
+		parameters one can create a pattern.
+	</p>
+	<p class="plaintext">
+	      I had never heard of open source clothing so after I got the darn thing working in MATLAB, I felt the urge
+	      to implement this as a Python script and share it online. With the 
+		<a href="./bowtie2.py">script</a>
+	      one can easily create a pattern for a bow tie. The script takes a relatively simple 
+		<a href=".input.bt">input file</a> and create a postscript image containing the
+		pattern for the bow tie.
+	</p>
+	<p class="plaintext">
+	  So how does it work? Simply save the files in a folder and command:<br />
+	  ./bowtie2 input.bt<br />
+	  Soon enough files bowtie.ps and bowtie.pdf (assuming you have ps2pdf
+	  installed) should appear in the same folder. In case you are not
+	  satisfied with the result, feel free to tweak the contents of input.bt
+	  to make a different kind of pattern.
+	</p>
+	<p class="plaintext">
+	  The syntax of the input file is very simple,
+	  you should only include one number for each line.
+	  The ordering of the numbers matters, of course. A number on
+	  a given line of the file will be interpreted as a specific
+	    parameter as follows: (a sensible range of parameters in parentheses)<br />
+	    1. The width of the bow in once the tie is tied up (8.0-14.0)<br />
+	    2. The maximal height of the bow in (4.0-9.0)<br />
+	    3. Your shirt size in (35.0-45.0)<br />
+	    4. How wide the band will be. The wider, the less painful it is to invert the pieces (1.5-3.0)<br />
+	    5. How much extra you need to include for the knot (2.0-6.0) <br />
+	    6. How much seam allowance you need to stitch the two halves together (1.0-5.0) <br />
+	    7. How much seam allowance you want in stitching the two sides of the tie together (0.5-1.5) <br />
+	    8. How much fabric you lose due to the finite thickness of the fabric. (0.2-0.8) <br />
+	    9.-N. These are the numbers defining the shape of the bow. Mathematically speaking,
+	    these are the fourier components of the cosine waves building up the bow.
+	    By including just one of these, you'll get a simple cosine wave,
+	    include more and more of them, and you'll get more and more fancy stuff.
+	      Feel free to experiment with these.<br />
+	 All values are in cm, though I am not sure how your printer may
+	 mess up the scales.
+	</p>
+	<p class="plaintext">
+	    In case you don't get it working, or don't feel nerdy you may use these examples.
+	      <a href="./example1.pdf">saw pattern 1</a>, <a href="./example1.bt">input file</a><br />
+	      <a href="./example2.pdf">saw pattern 2</a>, <a href="./example2.bt">input file</a><br />
+	      <a href="./example3.pdf">round one</a>, <a href="./example3.bt">input file</a><br />
+	      <a href="./example4.pdf">cosine wave</a>, <a href="./example4.bt">input file</a><br />
+	</p>
+	<p class="header2">
+		How to sew it together
+	</p>
+	<p class="plaintext">
+		There are a couple of ways to make a bow tie. The biggest difference is how the two bow tie halves are stitched together. One may create a fancy adjustable mechanism or just simply stitch the two pieces togethert to make a fixed length bow tie. This of course will not affect how nice the tie looks since the connection is anyways hidden below the collar of the dress shirt. Below you'll find one way of doing sewing together your tie, you may google for other solutions as well or check
+		  <a href="http://gescott14.blogspot.com/2008/06/how-to-sew-your-own-bowties.html">this.</a>
+	</p>
+	<p class="plaintext">
+	  
+		Once you've created the pattern for your bow tie and chosen the fabric, fold the cloth so that the right side is in the inside. Place the pattern on the fabric - it is advisable to cut it in an angle of 45 degrees from the grain of the material. Depending on the fabric you've chosen, you may use the zigzag stitch to tidy up the edges. If your fabric is thick, it may be enough to cut two pieces according to the pattern. If your fabric is thin or you want to create a thicker the bow tie, you may cut three or even four pieces. 
+	</p>
+	<p class="plaintext">
+		
+		Using two to four pieces, pin the bow tie such that the right side of the fabric is in the inside, and sew according to your chosen seam allowance. Repeat with the second end of the bow tie. In the corners, cut off some of the seam allowance to facilitate inverting the piece. If you aim for a thick bow tie, it may be worth the effort to trim all the seam allowances. 
+	</p>
+	<p class="plaintext">
+		
+		Invert the piece through the opening at the end of each piece. This may be cumbersome but do not give up - depending on your fabric you can use a variety of tools ranging from needles to pliers and pens. Make sure the corners look neat and tidy. In case you are using an extremely thick fabric, such as camo fabric, it might be necessary to stitch the piece a few millimeters from the rim to make the bow tie flat.
+	</p>
+	<p class="plaintext">
+		
+		Once you've created the two halves, it's time to practice making the knot. Use a safety pin to attach the two ends together and experiment to fine tune the length of the bow tie. Sew the two ends together and cut off the extra length 2-3 cm from the stitch. Either use a zigzag stitch to attach these ends or cut a rectangular piece from your fabric and sew a wraparound around the area. Cut off all extra threads and enjoy your finished bow tie!
+		
+	</p>
+
+	<p class="plaintext">
+		Every image can be freely distributed in terms of Creative Commons Attribution-Noncommercial-ShareAlike 3.0 License. The script is released under GNU GPL v3.0.
+		Special thanks to Mari Ijäs for a lot of useful comments, help in sewing and sewing related terminology as well as postscript expertise.
+		
+	</p>
+
+
+
+
+
+	<p class="plaintext">
+		This page was last updated on 25.4.2011
+	</p>
+	<p class="plaintext">
+		<a href="./index.htm">back to main page</a>
+	</p>
+</div>
+<div class="footer">
+		<a href="http://validator.w3.org/check?uri=referer">
+			<img class="validatorPenisExtender" src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML 1.1" height="31" width="88" />
+		</a>
+		<a href="http://jigsaw.w3.org/css-validator/check/referer">
+			<img class="validatorPenisExtender"
+				src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+		</a>
+		<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" class="validatorPenisExtender" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a>
+		
+</div>
+</body>
+
+</html>

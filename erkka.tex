@@ -1,0 +1,501 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[pdftex]{graphicx}
+\usepackage{courier}
+
+\usepackage{amssymb}	% (more) mathematical symbols
+\usepackage{amsmath}  % maths
+\usepackage{amsfonts} % math fonts
+\usepackage{booktabs} % nice tables
+
+\usepackage{textcomp}
+\usepackage{hyperref}
+\usepackage{multirow}     % merge cells in arrays
+\usepackage{longtable}    % tabular environments over several pages
+\usepackage{tabularx}     % tabular with intelligent col width
+\usepackage{setspace}     % row spacing
+
+\usepackage{amsthm}   % theorems
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+
+
+
+
+%%%%%%%
+
+%% own commands
+\DeclareMathOperator{\diag}{diag}    % diag function
+\newcommand{\bm}[1]{\boldsymbol{#1}} % bold vectors
+\newcommand{\bb}[1]{\mathbf{#1}}     % bold matrices
+
+\newcommand{\momspace}{\frac{d \bb{k}}{(2 \pi)^3}}
+\newcommand{\xspace}{d \bb{r}}
+
+\newcommand{\ssum}[1]{\mathop{\Sigma}_{#1}}
+
+\newcommand{\ie}{{\itshape{i.e.}}}
+\newcommand{\eg}{{\itshape{e.g.}}}
+
+\newcommand{\reff}[1]{(\ref{#1})}
+
+
+%% MY OWN COMMANDS
+\DeclareMathOperator{\tr}{Tr}    
+\DeclareMathOperator{\im}{Im}    
+
+\newcommand{\eps}{\varepsilon}
+
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+%\newcommand{\bea}{\begin{eqnarray}}
+%\newcommand{\eea}{\end{eqnarray}}
+\newcommand{\bea}{\begin{align}}
+\newcommand{\eea}{\end{align}}
+\newcommand{\bmat}{\begin{bmatrix}}
+\newcommand{\emat}{\end{bmatrix}}
+
+\newcommand{\vas}{\left (}
+\newcommand{\oik}{\right )}
+
+\newcommand{\aver}[1]{\left\langle {#1} \right\rangle}
+\newcommand{\ket}[1]{\left | {#1} \right\rangle}
+\newcommand{\bra}[1]{\left\langle {#1} \right |}
+\newcommand{\braket}[2]{\left\langle {#1} | {#2} \right\rangle}
+
+\newcommand{\com}[2]{\left [ {#1} , {#2} \right ]}
+\newcommand{\anticom}[2]{\left \{ {#1} , {#2} \right \} }
+
+\newcommand{\aikad}[1]{\frac{d #1}{dt}}
+\newcommand{\pat}[1]{\frac{\partial #1}{\partial t}}
+
+\newcommand{\varu}[3]{\frac{\delta #1}{\delta U(#2,#3)}}
+\newcommand{\varG}[3]{\frac{\delta #1}{\delta G(#2,#3)}}
+\newcommand{\unolla}[1]{\vas #1 \oik_{U=0}}
+\newcommand{\varus}[3]{\frac{\delta #1}{\delta U_{#2 #3}}}
+\newcommand{\varGs}[3]{\frac{\delta #1}{\delta G_{#2 #3}}}
+
+
+\newcommand{\kinetic}[1]{\frac{\nabla^2_{#1}}{2m}}
+\newcommand{\rr}{\bb{r}}
+\newcommand{\rry}{\bb{r}_1}
+\newcommand{\rrk}{\bb{r}_2}
+\newcommand{\rrko}{\bb{r}_3}
+\newcommand{\drr}{d\,\rr}
+
+\newcommand{\rrs}[1]{\rr_{#1}\sigma_{#1}}
+\newcommand{\drrs}[1]{d\,\rrs{#1}}
+
+\newcommand{\rrsy}{\rrs{1}}
+
+\newcommand{\rrsyt}{\rrs{1}t}
+
+\newcommand{\intdrr}{\int\drr}
+\newcommand{\intdrrs}[1]{\sum_{\sigma_{#1}}\int\drr_{#1}\,}
+\newcommand{\intdrrss}[2]{\sum_{\sigma_{#1},\sigma_{#2}}\int\drr_{#1}\,\drr_{#2}\,}
+\newcommand{\intdrrsss}[3]{\sum_{\sigma_{#1},\sigma_{#2},\sigma_{#3}}\int\drr_{#1}\,\drr_{#2}\,\drr_{#3}\,}
+
+\newcommand{\x}{\bb{x}}
+\newcommand{\xy}{\bb{x}_1}
+\newcommand{\xk}{\bb{x}_2}
+\newcommand{\xko}{\bb{x}_3}
+\newcommand{\dx}{d\,\x}
+
+\newcommand{\s}{\bb{s}}
+
+\newcommand{\xs}[1]{\x_{#1}}
+
+\newcommand{\xyt}{\xs{1}t}
+
+\newcommand{\intdx}{\int\dx}
+\newcommand{\intdxs}[1]{\int\dx_{#1}\,}
+\newcommand{\intdxss}[2]{\int\dx_{#1}\,\dx_{#2}\,}
+\newcommand{\intdxsss}[3]{\int\dx_{#1}\,\dx_{#2}\,\dx_{#3}\,}
+
+\newcommand{\Afun}[6]{ L({\xs{#1}}#5,{\xs{#2}}#5,{\xs{#3}}#6,{\xs{#4}}#6) }
+\newcommand{\numb}[1]{\hat{n}(#1)}
+
+
+\newcommand{\p}{\bb{p}}
+\newcommand{\q}{\bb{q}}
+\newcommand{\kk}{\bb{k}}
+\newcommand{\dd}{\bb{d}}
+\newcommand{\E}{\bb{E}}
+
+
+
+\newcommand{\psid}{\psi^\dagger}
+\newcommand{\hadj}[1]{{#1}^{\dagger}}
+\newcommand{\conj}[1]{{#1}^{\ast}}
+\newcommand{\laplace}{\nabla^2}
+\newcommand{\sumone}[1]{\mathop{\Sigma}_{#1}}
+\newcommand{\sumtwo}[2]{\mathop{\Sigma}_{#1}^{#2}}
+\newcommand{\cre}[1]{\psi(#1)}
+\newcommand{\ann}[1]{\psid(#1)}
+\newcommand{\spinup}{\uparrow}
+\newcommand{\spindown}{\downarrow}
+
+\newcommand{\half}{\frac{1}{2}}
+\newcommand{\tilt}{\tilde{t}}
+\newcommand{\tpri}{t^\prime}
+\newcommand{\tpripri}{t^{\prime\prime}}
+\newcommand{\tint}[2]{\int\limits_{#1}^{#2}d\,\tpri\,}
+\newcommand{\tintp}[2]{\int\limits_{#1}^{#2}d\,\tpripri\,}
+
+
+\newcommand{\U}{\mathcal{U}}
+\newcommand{\FF}{\mathcal{F}}
+\newcommand{\OO}{\mathcal{O}}
+
+\newcommand{\Afuns}[6]{ A({\rrs{#1}}#5,{\rrs{#2}}#5,{\rrs{#3}}#6,{\rrs{#4}}#6) }
+\newcommand{\deti}{\mathcal{\tilde{\delta}}}
+\newcommand{\detip}{\mathcal{\tilde{\delta}}^\prime}
+\newcommand{\taup}{\tau^\prime}
+\newcommand{\taupp}{\tau^{\prime\prime}}
+\newcommand{\tauintegral}[2]{\int\limits_{#1}^{#2}d\,(\tau_1-\tau_2)\,}
+\newcommand{\tauint}[2]{\int\limits_{#1}^{#2}d\,\taup\,}
+\newcommand{\tauintp}[2]{\int\limits_{#1}^{#2}d\,\taupp\,}
+
+\newcommand{\patau}[1]{\frac{\partial #1}{\partial \tau}}
+
+\newcommand{\kron}[1]{\delta_{#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%      %%%%      %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%        %%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%      %%%%      %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\title{Special assignment}
+\author{Juho Häppölä}
+
+\begin{document}
+\pagestyle{empty}
+
+
+
+%%%%%%%
+%
+%
+%
+%
+\begin{tabbing}
+HELSINKI UNIVERSITY OF TECHNOLOGY \hspace{2cm}\= SPECIAL ASSIGNMENT \\
+Teknillisen fysiikan    \>             Tfy-3.393 Laskennallinen fysiikka\\
+koulutusohjelma         \>             1.7.2009\\
+\end{tabbing}
+\vspace{5mm}
+\begin{center}
+\Large
+%Collective modes in the FFLO state\\of an ultracold Fermi gas
+%Self-consistent linear response theory \\of imbalanced fermionic superfluids
+BCS theory for a four component fermi gas
+\end{center}
+%\parbox{7cm}{\ }
+%\parbox{1em}
+%{\raggedright E R I K O I S T Y \"O N \  K A N S I L E H T I M A L L I}\\
+
+\vspace{140mm}
+
+\hspace{78mm} Juho Häppölä
+
+\hspace{78mm} 66573U
+
+
+%$^{1)}$ Opintojakson koodi ja vastuualue, johon ty\"o tehd\"a\"an.\\
+%$^{2)}$ P\"aiv\"am\"a\"ar\"a, jolloin ty\"o on j\"atetty tarkastettavaksi.\\
+%\end{tabbing}
+
+
+\eject
+\newpage
+\pagestyle{plain}
+\pagenumbering{roman}
+\setcounter{page}{1}
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+
+
+\section{Introduction}
+\label{intro}
+
+Superconductivity and -fluidity are phenomena that have interested the scientific community for nearly a century. In 1911 Heike Kammerlingh Onnes found superconductivity and since then related phenomena have been studied intensively. Phenomenological theories on the subject were proposed in 1950s by London and Landau-Ginzburg. First and best established microscopic theory of superconductivity, nowadays known as the BCS theory was developed by Bardeen, Cooper and Schrieffer in 1957.
+
+Despite the fact that the BCS theory has aged for six decades many relevant questions remain unanswered. One interesting phenomenon that could have many possible practical applications is high temperature superconductivity, which allows transport of electrical current with no power loss in temperatures exceeding 100 K in contrast to ``classical'' superconductors which have critical temperature at some 10 K.
+
+One promising way to gain understanding about high temperature superconductivity is studying properties of ultracold Fermi gases. In practise this means experiments on alkali gases in temperatures in $\mu$K region. The original BCS theory describes superconductivity by formation of cooper pairs, which are bound states of electrons with opposite spin. For BCS theory it is necessary that electrons have opposite spin, otherwise they could not bound together properly because of the Pauli exclusion principle. However, electrons with opposite spin are not the only particles that BCS theory can be applied to. In fact, any distinguishable fermionic particles will do for this purpose. In this work BCS theory is applied to system in which the fermionic particles are different hyperfine states of a given alkali atom.
+
+The main scope of this assignment is to study properties of fermionic gases that have four different components that can couple with each other. The question to be asked is that how do these four components couple to each other with different types of interaction parameters between them. 
+
+\section{The BCS theory}
+
+\subsection{Introduction to BCS theory}
+
+The BCS theory describes superconductivity and related phenomena by formation of so-called Cooper pairs. In the sequel it is demonstrated how a weak interaction between particles leads to formation of these pairs with some simplifying assumptions and proper conditions.
+
+The occupation probability of a given state for fermionic particles is described by Fermi-Dirac -distribution:
+\begin{equation}
+\label{fermidirac}
+p(E) = \frac{1}{e^{\beta(E-\mu)}+1},
+\end{equation}
+Where $E$ is the energy of given state and $\mu$ is the chemical potential or Fermi level.
+In low temperatures the distribution can be accurately approximated with a step-like distribution in which all states with energy lower than the Fermi surface are occupied whereas states with higher energy are empty.
+
+Assuming this commonly accepted approximation it can be shown that even a small attractive interaction between fermionic particles can give rise to bound states between two fermions called cooper pairs. In low temperatures the electrons of a system form a so-called Fermi sea. Any two excess electrons have a wavefunction expressible in terms of plane waves:
+\begin{equation}
+\label{wf0}
+\psi_0(r_1,r_2) = \int \momspace ~ g_k e^{ik \cdot r_1}e^{-i k \cdot r_2}.
+\end{equation}
+
+The wavefunction has a spatial and a spin part, one of which has to be antisymmetric and the other symmetric in order to satisfy Pauli exclusion principle. Handling attractive interaction between fermions it seems reasonable to assume the wavefunction to represent a singlet state, which allows more overlap of the single particle wave functions. In this case \ref{wf0} turns into
+\begin{equation}
+\label{wf1}
+\psi_0(r_1,r_2) = (\int \momspace ~ g_k cos k \cdot (r_1-r_2))(\uparrow \downarrow - \downarrow \uparrow).
+\end{equation}
+Here the arrows represent different spin orientations of electrons but they can be understood to represent any corresponding degree of freedom as is done later. Fourier transforming the interaction into momentum basis and inserting \ref{wf1} into Schrödinger equation one gets an equation for the eigenenergies of the Cooper pairs
+\begin{equation}
+(E-2 E_k)g_k = \int \momspace V(k,k') g_k'.
+\end{equation}
+Here $V(k,k')$ represents the scattering potential for elastic scattering between momenta $k'$ and $k$ and $E_k$ is the kinetic energy of a plane wave charecterised by wave vector $k$. By Cooper's approximation $V(k,k') \approx V$ one gets
+\begin{equation}
+\label{ypv}
+\frac{1}{V}=\int \momspace (2 E_k-E)^{-1}.
+\end{equation}
+In low temperatures high values of $k$ can be neglected to some cutoff value whereas the lowest possible value is given by the Fermi level. From eq. \ref{ypv} one gets
+\begin{equation}
+1/V=\rho \int_{\mu}^{\mu+E_c} \frac{d\epsilon}{2\epsilon-E}=\rho ln \frac{2 \mu - E + 2E_c}{4\mu-E},
+\end{equation}
+which leads to energy $E \approx 2 \mu - 2E_c e^{-2/\rho V}$.
+
+From this it is easy to conclude that formation of Cooper pairs is energetically feasible.
+
+
+In the classical theory of superconducting metals this attraction is a result of electron-lattice interactions. In the present case the attraction is a result of van der Waals interactions between alkali atoms.
+
+Van der Waals interactions are result from elastic scattering of fermions. Practically the most significant scattering process is of lowest possible order, i.e. two-body scattering. Moreover the gas is weakly enough coupled to its environment that the scattering processes can be estimated to be elastic.
+
+Let us write the Hamiltonian responsible for this elastic scattering process as
+\begin{equation}
+\label{hamiltonian0}
+H = H_f + V,
+\end{equation}
+where $H_f$ represents the free hamiltonian and $V$ the interaction potential. Furthermore it should be noted that the treatment of the scattering process is non-relativistic. The scattered wavefunction can be written as a linear combination of a plane wave and a scattered part, thus
+\begin{equation}
+\label{psiscattered}
+\psi = A (e^{i k \cdot r} + f(\theta) \frac{e^{ik'\cdot r}}{r}).
+\end{equation}
+Using the fact that the scattering potential is spherically symmetric and by decomposing the wave initial and scattered wave functions into spherical harmonics, it can now be showed \cite{tomigradu} that the scattering amplitude behaves in low temperatures as
+\begin{equation}
+f \propto k^{2l},
+\end{equation}
+where $l$ is the angular momentum quantum number. Thus, in low enough temperatures s-wave scattering dominates. This justifies the assumption of a singlet state made in Eq. \ref{wf1}, since in order to make the total wave function antisymmetric with respect to switching particles, the spin part has to be antisymmetric because the $l=0$ part of the wavefunction is symmetric.
+
+\subsection{Application for two component fermionic gas}
+
+For a two component fermionic gas the Hamiltonian can be written as
+\begin{equation}
+\label{2cham}
+H = H_0+V-\mu_1 N_1 - \mu_2 N_2.
+\end{equation}
+Here $H_0$ denotes free hamiltonian, $V$ the interaction potential and $\mu_i$ and $N_i$ the fermi levels and quantities of both components respectively.
+
+By defining fermionic field operators by
+\begin{equation}
+\label{fieldops}
+\Psi_\sigma(r) = \int \momspace e^{-ik \cdot r} a_{k \sigma} ~~ \hadj{\Psi}_\sigma(r) = \int \momspace e^{i\cdot r} \hadj{a}_{k \sigma}
+\end{equation}
+where $a$, $\hadj{a}$ are the standard fermionic creation and annihilation operators satisfying
+\begin{equation}
+\label{fermops}
+\anticom{a_{ki}}{\hadj{a}_{k'j}} = \delta_{ij} \delta_{kk'}, ~~ \anticom{\hadj{a}_{ki}}{\hadj{a}_{kj}} = \anticom{a_{ki}}{a_{kj}} = 0.
+\end{equation}
+Now the hamiltonian can be written in second quantized form:
+\begin{equation}
+\label{2cham2}
+H = \int dr \sumone{\sigma} \hadj{\Psi}_\sigma(r) (\frac{-\laplace}{2m}-\mu_\sigma) \Psi_\sigma(r) +
+\sumone{{\sigma < \sigma'}} \int dr \int dr' V(r,r') \hadj{\Psi}_{\sigma'}(r)\hadj{\Psi}_{\sigma}(r')\Psi_{\sigma}(r') \Psi_{\sigma'}(r)
+\end{equation}
+with natural units ($\hbar=1$) adopted.
+
+Due to short range of van der Waals interactions in ultracold Fermi gases the scattering potential can be accurately approximated by a contact potential resulting in a more pleasant looking hamiltonian:
+\begin{equation}
+\label{2cham3}
+H = \int dr \sumone{\sigma} \hadj{\Psi}_\sigma(r) (\frac{-\laplace}{2m}-\mu_\sigma) \Psi_\sigma(r)
++ V \int dr \hadj{\Psi}_1(r)\hadj{\Psi}_2(r) \Psi_2(r) \Psi_1(r)
+\end{equation}
+The interaction can be simplified even further using a mean field approximation. % TODO: clarify!!!
+One can simplify the interaction term with Wick's theorem as follows:
+\begin{align}
+\label{meanfield}
+\hadj{\Psi}_i(r) \hadj{\Psi}_j(r) \Psi_j(r) \Psi_i(r) = \aver{\hadj{\Psi}_i(r)\hadj{\Psi}_j(r)}\Psi_j(r)\Psi_i(r)+
+\aver{\Psi_j(r)\Psi_i(r)}\hadj{\Psi}_i(r)\hadj{\Psi}_j(r)+ \\
+\aver{\hadj{\Psi}_j(r)\Psi_j(r)}\hadj{\Psi}_i(r)\Psi_i(r)+
+\aver{\hadj{\Psi}_i(r)\Psi_i(r)}\hadj{\Psi}_j(r)\Psi_j(r)- \\
+\aver{\hadj{\Psi}_i(r)\Psi_j(r)}\hadj{\Psi}_j(r)\Psi_i(r)-
+\aver{\hadj{\Psi}_j(r)\Psi_i(r)}\hadj{\Psi}_i(r)\Psi_j(r).
+\end{align}
+The two last terms of the above can be neglected in reasonably low temperatures simplifying the nature of the interaction even more. Furthermore the Hartree fields that have a term of type $\aver{\hadj{\Psi}_i(r) \Psi_i(r)}$ in them can be neglected. What is left can be tidied up by defining an order parameter:
+\begin{equation}
+\label{orderparameter}
+\Delta \equiv V_0 \aver{\Psi_2(r) \Psi_1(r)},
+\end{equation}
+which reduces the interaction to
+\begin{equation}
+\label{finaltwocompint}
+V = \int dr \Delta(r) \hadj{\Psi}_1(r) \hadj{\Psi}_2(r) + \conj{\Delta} \Psi_1(r) \Psi_2(r).
+\end{equation}
+It can be seen that by a substitution $\xi_i \equiv \frac{k^2}{2m}-\mu_j$ \ref{2cham2} can be written as
+\begin{equation}
+\label{twocomponentmatrixhamiltonian}
+H = \int \momspace ~ 
+\vas \begin{array}{cc}
+\hadj{a}_{1,k} & a_{2,k}  \end{array} \oik
+\vas \begin{array}{cc}
+\xi_1 & \Delta \\
+\conj{\Delta} & -\xi_2  \end{array} \oik
+\vas \begin{array}{c}
+a_{1,k} \\
+\hadj{a}_{2,k}  \end{array} \oik.
+\end{equation}
+The problem can be simplified by a canonical Bogoliubov transformation introducing new creation and annihilation operators as \cite{fw}
+\begin{align}
+\alpha_k &\equiv u_k a_{k \spinup} - v_k \hadj{a}_{-k \spindown}, \\
+\beta_{-k} &\equiv u_k a_{-k \spindown} + v_k \hadj{a}_{k \spinup}.
+\end{align}
+It turns out that requiring $u_k^2+v_k^2=1$ gives the following commutation rules for newly defined operators:
+\begin{align}
+\anticom{\alpha_k}{\hadj{\alpha}_{k'}}=\anticom{\beta_k}{\hadj{\beta}_{k'}}= \delta_{kk'}, \\
+\anticom{\alpha_k}{\alpha_{k'}}=\anticom{\alpha_k}{\beta_{k'}}=0
+\end{align}
+thus the operators describe fermionic quasiparticles. It can be noted that the phase of $\Delta$ carries no significance and therefore $\Delta$ can safely be defined to be real. Furthermore eq. \ref{twocomponentmatrixhamiltonian} turns into diagonal form if one defines $u_k$, $v_k$ as
+\begin{align}
+u&=\sqrt{\frac{4 \Delta^2 + S^2 + \sqrt{4 \Delta^2 + S^2}}{2(4 \Delta^2+S^2)}}, \\
+v&=\sqrt{\frac{4 \Delta^2 + S^2 - \sqrt{4 \Delta^2 + S^2}}{2(4 \Delta^2+S^2)}}, &S \equiv \xi_1 + \xi_2.
+\end{align}
+The resulting Hamiltonian reads
+\begin{equation}
+\label{diaghamtwocomp}
+H = H_{c} + \int \momspace ~ 
+\vas \begin{array}{cc}
+\hadj{\alpha}_{k} & \beta_{-k}  \end{array} \oik
+\vas \begin{array}{cc}
+E_1 & 0 \\
+0 & -E_2  \end{array} \oik
+\vas \begin{array}{c}
+\alpha{k} \\
+\hadj{\beta}_{-k}  \end{array} \oik,
+\end{equation}
+where the constant terms resulting from normal ordering are put in $H_c$. In terms of quasiparticles the definition of order parameter (Eq. \ref{orderparameter}) turns into
+\begin{align}
+\Delta &= -V \int \momspace u_k v_k \vas 1 - \aver{\hadj{\alpha}_k \alpha_k} - \aver{\hadj{\beta}_k \beta_k} \oik \label{ekaukko} \\
+\Leftrightarrow ~~~ 1 &= -\frac{V_0}{2} \int \momspace \frac{1-f(E_1,T)-f(E_2,T)}{\sqrt{\xi_k^2+\Delta^2}}, \label{tokaukko} 
+\end{align}
+where the expectation values of the number states for the are replaced by the Fermi-Dirac -distribution since the quasiparticles satisfy fermionic commutation relations. The energies $E_1$ and $E_2$ are the energy eigenvalues which give the dispersion relation for the quasiparticles. The price to pay for the fact that quasiparticle treatment makes the Hamiltonian diagonal, is somewhat cumbersome dispersion relation for the quasiparticles. The energies needed in Eq. \ref{tokaukko} are defined as
+\begin{align}
+E_1 &= \frac{S}{2} + \frac{\vas \xi_1^2- \xi_2^2 \oik  \sqrt{4 \Delta^2 + S^2} - 2 \Delta \sqrt{4 \Delta^4+\Delta^2 S^2}}{2(4 \Delta^2 + S^2)} \label{firstenergy}\\
+E_2 &= \frac{S}{2} + \frac{\vas \xi_2^2- \xi_1^2 \oik  \sqrt{4 \Delta^2 + S^2} - 2 \Delta \sqrt{4 \Delta^4+\Delta^2 S^2}}{2(4 \Delta^2 + S^2)} \label{secondenergy}
+\end{align}
+
+In order to make the integral in eq. \reff{tokaukko} convergent it can be regularised as
+\begin{equation}
+1=\frac{4 \pi |a_0|}{m} \int \momspace \vas \frac{1-f(E_1,T)-f(E_2,T)}{\sqrt{\xi_k^2+\Delta^2}} - \frac{1}{2E_k} \oik,
+\label{aukkoyht}
+\end{equation}
+where $E_k$ is the plane wave energy corresponding to $k$ and $a_0$ is the scattering length. By representing all measurable values as multiples of the fermi energy \ref{aukkoyht} turns to
+\begin{equation}
+\label{vikaukko}
+1 = \frac{k_f|a_0|}{\pi} \int_0^{\infty} d\epsilon \sqrt{\epsilon} \vas \frac{1-f(E_1,T)-f(E_2,T)}{\sqrt{\xi^2+\Delta^2}}-\frac{1}{\epsilon}  \oik
+\end{equation}
+The fermi wave number in \ref{vikaukko} is defined by the number of particles as $k_f = (3 \pi^2 (n_1+n_2))^{\frac{1}{3}}$. Thus in order to make a complete set of equations \ref{vikaukko} has to be accompanied by the following number equations:
+\begin{align}
+n_1 &= \frac{3 n}{4} \int_0^{\infty} d\epsilon \sqrt{\epsilon} \vas \frac{(\sqrt{\xi^2+\Delta^2}+\xi)f(E_1,T)+(\sqrt{\xi^2+\Delta^2}-\xi)f(E_2,T)}{2\sqrt{\xi^2+\Delta^2}}  \oik \label{ekaluku} \\
+n_1&=n-n_2 \label{tokaluku}
+\end{align}
+Numerically solving the three equations \ref{vikaukko},\ref{ekaluku} and \ref{tokaluku} one can determine whether there exists a non-zero solution for $\Delta$ and is it energetically feasible to form Cooper pairs with given $n_1$, $n_2$.
+
+\section{Four component Fermi gas}
+
+The previous treatment for two component fermi gas can now be generalised in a manner somewhat similar to that above. The generic hamiltonian for a four-component gas is simplified using a contact potential approximation. Furthermore the interaction terms are treated with a mean field approximation. This leads to a matrix form Hamiltonian for a four-component gas. The four-by-four matrix equation can then be diagonalised using a set of bogoliubov transformations. After that a set of gap and number equations are derived to be solved using numerical methods.
+
+The generic hamiltonian for a n component system is given as
+\begin{equation}
+H = \int \xspace \vas  \ssum{i} \hadj{\Psi}_i(r) \vas \frac{- \laplace}{2m} \oik \Psi_i(r) \oik
++ \ssum{i<j} \int \xspace \int d\bb{r'} \vas V_{ij}(\bb{r},\bb{r'}) \hadj{\Psi}_i(r) \hadj{\Psi}_j(r) \Psi_j(r) \Psi_i(r) \oik
+\end{equation}
+Replacing the interactions with a contact potential and defining $\Delta_{ij} = -\Delta_{ji} = V_{ij} \aver{\Psi_i \Psi_j}$ this is simplified to
+\begin{equation}
+\label{akuankka}
+H = H_0 + \ssum{i<j} \int \xspace \Delta_{ij} \hadj{\Psi}_i(\bb{r}) \hadj{\Psi}_j(\bb{r}),
+\end{equation}
+where $H_0$ is the free Hamiltonian. Assuming that the order parameters $\Delta_{ij}$ are independent of location and transforming into momentum space eq. \ref{akuankka} can be turned into a matrix form just as in the two-dimensional case. In the case of four components the Hamiltonian is defined as
+\begin{equation}
+\label{momhamiltonian}
+H = \int \momspace ~ \hadj{V} K V,
+\end{equation}
+where $V$ and $K$ are given by
+\begin{align}
+\hadj{V} =
+\vas \begin{array}{cccccc}
+\hadj{a}_{1,k} & \hadj{a}_{2,k} & a_{2,-k} & \hadj{a}_{3,k} & a_{3,-k} & \hadj{a}_{4,k}
+\end{array} \oik,
+\\
+K = \vas \begin{array}{cccccc}
+\xi_1 & 0 & \Delta_{12}  & 0 & \Delta_{13}  & \Delta_{14} \\
+0 & \frac{\xi_2}{2} & 0 & 0 & \Delta_{23} & \Delta_{24} \\
+\conj{\Delta}_{12} & 0 & -\frac{\xi_2}{2} & 0 & 0 & 0		 \\
+0 & 0 & 0 & \frac{\xi_3}{2} & 0 & 0 \\
+\conj{\Delta}_{13} & \conj{\Delta}_{23} & 0 & 0 & -\frac{\xi_3}{2} & \Delta_{34}  \\
+ \conj{\Delta}_{14}& \conj{\Delta}_{24}  & 0 & 0 & \conj{\Delta}_{34} & \xi_4
+\end{array} \oik    .
+\end{align}
+Due to the apparent hermiticity of $G$ it can be brought to diagonal form by an unitary transformation $U$. Like in the case of two component gas this results in quasiparticles in a hamiltonian of the form
+\begin{equation}
+\label{momhamiltoniandiag}
+H = \int \momspace ~ \hadj{W} D W,
+\end{equation}
+where $D=UK\hadj{U}$ and $W=UV$. It can now be shown that the given unitarity transform preserves commutation relations and thus the resulting quasiparticles obey fermionic commutation rules and statistics. First we note the commutation relations for components of V:
+\begin{align}
+\label{Vanticom}
+\anticom{V_i}{V_j}&=0, \\  \anticom{\hadj{V_i}}{V_j}&=\mu \delta_{ij}
+\end{align}
+With Einstein summation convention the new quasiparticle operators are defined as
+\begin{align}
+W_i = U_{ij} V_j, \\ \hadj{W}_k=\conj{U}_{lk} \hadj{V}_l
+\end{align}
+Now a straightforward calculation shows 
+\begin{align}
+\anticom{W_i}{W_l}&=\anticom{U_{ij}V_j}{U_{lk}V_k}=U_{ij}U_{lk}\anticom{V_j}{V_k}=0    \\
+\anticom{\hadj{W}_l}{W_i}&=\anticom{\conj{U}_{lk}\hadj{V}_l}{U_{ij}V_j}=\conj{U}_{lk}U_{ij} \anticom{\hadj{V}_l}{V_j} = \conj{U}_{jk}U_{ij} \mu = \mu \delta_{ij},
+\end{align}
+leading to the conclusion that an arbitrary unitary transformation preserves the anticommutation relations of creation and annihilation operators.
+
+In practise such a Bogoliubov transformation requires solving a sixth-degree polynomial equation which may not have an analytic solution. Should such a solution exist, we expect it to be not very enlightening nor relevant for the physics. Thus, in this work we resort to numerical methods in doing the transformation.
+
+Like in the case of 
+
+
+\section{Results}
+
+
+
+\section{Discussion}
+
+
+
+
+
+%\bibliographystyle{tfy99273}
+\clearpage
+\bibliographystyle{unsrt}
+\addcontentsline{toc}{section}{Bibliography}
+\bibliography{bibfile}
+
+\end{document}

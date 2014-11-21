@@ -1,0 +1,35 @@
+﻿NIMI			PUHELIN		SÄHKÖPOSTI
+Alén Tomi		0504121947	tomi_alen@hotmail.com
+Anttila Matti		0405456543	matti_anttila@gmx.de
+Gråhn J-MM		0408219603	bakubakuanimal@hotmail.com
+Hallavo Antti		0505299749	antti.hallavo@gmail.com
+Hänninen Juha		0505453805	juha.hanninen@gmail.com
+Häppölä Juho		0504906696	juhotski@gmail.com
+Hiekkanen Antti		0408208840	anthie3@hotmail.com
+Huuhilo RJ		0405447427	roopemx7@hotmail.com
+Huusko Niko		0405496600	huuski@hotmail.com
+Jaakonsaari Juho	0407595069	juhojaak@pp.inet.fi
+Järvinen Joel		0503403003	joel.jarvinen@hotmail.com
+Kanniainen Panu		0505023725	panu.kanniainen@hotmail.com
+Klemettilä Arttu	0407336316	asklemet@cc.hut.fi
+Koponen Johannes	0415403608	johannes.koponen@hut.fi
+Koskela Mikko		0405716868	koskela_m@hotmail.com
+Kuusela Mikael		0400823636	mikael@svil.fi
+Kuusisto KAJ		0400589658	
+Lampinen Markus		0445021087	lampinen.markus@gmail.com
+Lehtinen Timo		0407552781	timo.o.lehtinen@hut.fi
+Lees Mikael		0405943022	mikael@kolumbus.fi
+Lämsä Antti		0405822916	hughvortti@hotmail.com
+Lääkkölä Riku		0503720590	riku.laakkola@mbnet.fi
+Rantanen KT		0408379401	
+Rautiainen Jussi	0408668743	jussi.rautiainen@hotmail.com
+Rautiainen Tommi	0504909299	tommi_rautiainen@luukku.com
+Saarenketo Pipsa	0503790630	pipsa.saarenketo@luukku.com
+Satopää Ville		0505902259	ville.satopaa@gmail.com
+Seppä Teppo		04047257041	teppo.seppa@hotmail.com
+Tavakka KE		0505467960	kai@tavakka.com
+Tikkanen Juha-Pekka	0503430262	jptikkanen@hotmail.com
+Turunen Tuomas		0407457586	turunen.tuomas@kolumbus.fi
+Vaununmaa Lauri		0415488903	lauri.vaununmaa@hotmail.com
+Viitasaari Ville	0400441360	ville.viitasaari@hotmail.com
+Wihersaari Lauri	0505313303
